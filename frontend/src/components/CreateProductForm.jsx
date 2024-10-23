@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import { useProductStore } from '../stores/useProductstore';
+import { useProductStore } from '../stores/useProductStore';
 import { motion } from "framer-motion";
 import { Loader, PlusCircle, Upload } from "lucide-react";
 
