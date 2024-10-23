@@ -5,7 +5,7 @@ import { UserPlus, Mail, Lock, User, ArrowRight, Loader } from "lucide-react";
 import { useUserStore } from "../stores/useUserStore";
 
 const LoginPage = () => {
-  const {login,user,loading} = useUserStore();
+  const {login,loading} = useUserStore();
   const [formData, setFormData] = useState({
 		email: "",
 		password: ""

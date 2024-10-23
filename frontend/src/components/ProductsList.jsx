@@ -1,5 +1,5 @@
 import React from 'react'
-import { useProductStore } from '../stores/useProductstore'
+import { useProductStore } from '../stores/useProductStore'
 import { motion } from "framer-motion";
 import { Trash, Star } from "lucide-react";
 

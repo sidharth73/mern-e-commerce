@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { useProductStore } from '../stores/useProductstore'
+import { useProductStore } from '../stores/useProductStore'
 import ProductCard from "../components/ProductCard";
 import { motion } from "framer-motion";
 
